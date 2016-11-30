@@ -1,0 +1,6 @@
+# Routes
+# ~~~~
+
+# Home page
+GET     /ingest                          controllers.Application.ingest()
+GET     /friends                         controllers.Application.getFriends(id)
